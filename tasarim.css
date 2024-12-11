@@ -49,13 +49,13 @@ main{
 }
 
 main article{
-    background-color: #caccd1;
+    background-color: #f3f4f7;
     flex:9;
     padding:10px 10px 0 10px;
 }
 
 main aside{
-    background-color: #caccd1;
+    background-color: #f3f4f7;
     flex:3;
     padding:10px 10px 0 10px;
 }
@@ -72,4 +72,12 @@ main section{
     padding-bottom:10px;
 }
 
-/*footer*/
+
+@media screen and (max-width: 600px) {
+    
+  main{
+    flex-direction: column;
+  }
+  
+
+  }
